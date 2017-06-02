@@ -36,7 +36,7 @@ class main():
                 self.add_link.add_new_links(new_links)
             else:
                 html=self.download_html.download_html(new_url)
-                print ("------------------------------",num,new_url) 
+                print "------------------------------",num,new_url
                 pic_url_list=self.parser.get_new_pic_links(html)
                 for link in pic_url_list:
                     urllib.urlretrieve(link,os.path.join(path,str(count)+'.jpg'))
