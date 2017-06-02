@@ -57,4 +57,4 @@ class main():
             if num==100:
                 break
 a=main()
-n=a.crawl_main('https://book.douban.com/')
+n=a.crawl_main('https://book.douban.com_test1/')
