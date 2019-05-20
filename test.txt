@@ -1,5 +1,0 @@
-使用方法：
-把要上传的文件放在这个文件夹下，打开git bash，进入要上传的文件所在路径下
-1. git add *  
-2.git commit -m "信息" 
-3. git push origin master  
